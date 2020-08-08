@@ -48,7 +48,7 @@ int main() {
     createRenderPass(state);
     createGraphicsPipeline(state);
 
-    createCommondBuffers(state);
+    createCommandBuffers(state);
     createSyncObjects(state);
 
     initBuffers(state);

@@ -1014,7 +1014,7 @@ void createGraphicsPipeline(VkState &state) {
     }
 }
 
-void createCommondBuffers(VkState &state) {
+void createCommandBuffers(VkState &state) {
     CommandPoolCreateInfo poolInfo(
             {},
             state.familyIndices.getSingleFamilyIndex()
